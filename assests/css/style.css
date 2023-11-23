@@ -9,6 +9,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .bg-blue{
     background-color: #212a43;
 }
@@ -53,6 +54,13 @@
 
 .w-50{
     width: auto;
+}
+
+.ahover a:hover {
+    color: #e46c0a !important;
+}
+.ahover1 a:hover {
+    color: #1ce40a !important;
 }
 /* Banner Section Start */
 .banner{
@@ -134,8 +142,7 @@
     width: 100%;
     height: auto;
     background: #000;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../img/flighttakeoff.jpg); */
-    /* background-size: 100% 100%; */
+   
 
 }
 .footer h4{
@@ -183,7 +190,14 @@
         font-size: 10px !important;
         margin: 0px auto;
     }
-
+.row{
+    margin-left: 10px;
+    padding-right: 10px;
+    
+} 
+.footer{
+   
+}
     
 }
     

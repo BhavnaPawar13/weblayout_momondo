@@ -26,32 +26,32 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item ahover1">
                             <a class="nav-link active fw-bold text-danger2" aria-current="page"
                                 href="javascript:void()">Flights</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ahover1 ">
                             <a class="nav-link text-light" href="#">Hotel</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ahover1 ">
                             <a class="nav-link text-light" href="#">Car Hires</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ahover1 ">
                             <a class="nav-link text-light" href="#">Trip Finder</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ahover1">
                             <a class="nav-link text-light" href="#">Inspiration</a>
                         </li>
                     </ul>
 
                     <form class="d-flex" role="search">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ahover1">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-light" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     English(GBD)
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu ahover">
                                     <li><a class="dropdown-item  bg-danger5 fw-bold"
                                             href="javascript:void()">English</a></li>
                                     <li><a class="dropdown-item  bg-danger5 fw-bold"
@@ -61,7 +61,7 @@
                                 </ul>
                             </li>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ahover1">
                                 <a class="nav-link text-light" href="#">Log In</a>
                             </li>
                         </ul>
@@ -74,40 +74,40 @@
     <!-- Header section end -->
 
     <!-- Banner Section Start -->
-    <div class="banner position-relative">
-        <div class="container">
+    <section class="banner position-relative">
+        <div class="container mx-auto">
             <div class="row">
-                <div class="col-lg-9 col-lg-7 text-white ms-1 position-absolute top-15">
+                <div class="col-sm-9 col-lg-7 text-white mt-1 position-absolute top-15">
                     <h1>"The best place to find <br> the cheapest airfares"</h1>
-                    <p class="fw-bold fs-3 mt-3">
+                    <p class=" fs-2 mt-2 position-absolute">
                         - every single time
                     </p>
                 </div>
             </div>
 
-            <div class="row flex-row">
-                <div class="col-12 col-sm-9 col-md-10 position-absolute bottom-0 mb-4 ms-3 ms-sm-3 py-1 
-          bg-danger3 rounded  py-2 px-3">
+            <div class="row mx-auto">
+                <div class="col-11 col-sm-10 col-md-10 position-absolute mt-sm-5 bottom-0 mb-lg-4 ms-1 ms-sm-1
+                        bg-danger3 rounded-0 py-1 px-2">
                     <nav class="mb-2">
                         <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
                             <div class="nav-item" role="presentation">
-                                <button class="nav-link rounded-0 border-0 text-white bg-danger4  active"
-                                    id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home-tab-pane"
-                                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <button class="nav-link rounded-0 border-0 text-white bg-danger4 active"
+                                    id="flights-tab" data-bs-toggle="tab" data-bs-target="#flights-tab-pane"
+                                    type="button" role="tab" aria-controls="flights-tab-pane" aria-selected="true">
                                     <i class="fa-solid fa-plane-departure"></i> Flights
                                 </button>
                             </div>
                             <div class="nav-item" role="presentation">
-                                <button class="nav-link rounded-0 border-0 text-white mx-1 bg-danger4 btn-width-80"
-                                    id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-hotel-tab-pane"
-                                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-                                    <i class="fa-solid fa-shop"></i>Hotel
+                                <button class="nav-link rounded-0 border-0 text-white mx-1 bg-danger4"
+                                    id="nav-hotel-tab" data-bs-toggle="tab" data-bs-target="#nav-hotel" type="button"
+                                    role="tab" aria-controls="nav-hotel" aria-selected="false">
+                                    <i class="fa-solid fa-hotel"></i> Hotels
                                 </button>
                             </div>
                             <div class="nav-item" role="presentation">
-                                <button class="nav-link rounded-0 border-0 text-white bg-danger4 fs-14 btn-width-80"
-                                    id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-cars-tab-pane"
-                                    aria-selected="false">
+                                <button class="nav-link rounded-0 border-0 text-white bg-danger4  " id="cars"
+                                    data-bs-toggle="tab" data-bs-target="#cars-tab-pane" type="button" role="tab"
+                                    aria-controls="cars-tab-pane" aria-selected="false">
                                     <i class="fa-solid fa-car"></i> Cars
                                 </button>
                             </div>
@@ -116,37 +116,38 @@
 
                     <div class="tab-content position-relative" id="nav-tabContent">
 
-                        <div class="tab-pane fade show active" id="nav-flights-tab-pane" role="tabpanel"
-                            aria-labelledby="nav-flights-tab" tabindex="0">
+                        <div class="tab-pane fade show active" id="flights-tab-pane" role="tabpanel"
+                            aria-labelledby="flights-tab" tabindex="0">
 
                             <form action="">
                                 <div class="row g-1">
-                                    <div class="col-sm-6 col-lg-2" id="arrow">
+                                    <div class="col-md-6 col-12 col-lg-2">
                                         <!-- <div class="input group"> -->
-                                        <!-- <span class="input-group-text rounded-0"><i class="fa fa-location-dot icon"></i></span> -->
-                                        <input type="text" class="form-control" placeholder="Enter Origin City"
-                                            aria-label="origin">
+                                        <!-- <i class="fa fa-location-dot icon"></i> -->
+                                        <input type="text" class="form-control rounded-0"
+                                            placeholder="Enter Origin City" aria-label="origin">
 
                                         <!-- </div> -->
                                         <!-- <span><i class="fa-solid fa-arrow-right-arrow-left" style="color:rgb(166, 239, 239)"></i></span> -->
                                     </div>
 
 
-                                    <div class="col-sm-6 col-lg-2">
-                                        <input type="text" class="form-control" placeholder="Enter Destination City"
-                                            aria-label="destination">
+                                    <div class=" col-12 col-md-6 col-lg-2">
+                                        <input type="text" class="form-control rounded-0"
+                                            placeholder="Enter Destination City" aria-label="destination">
                                     </div>
                                     <div class="col-sm-6 col-lg-2">
-                                        <input type="date" class="form-control" placeholder="End date"
+                                        <input type="date" class="form-control rounded-0" placeholder="End date"
                                             aria-label="edate">
                                     </div>
                                     <div class="col-sm-6 col-lg-2">
-                                        <input type="date" class="form-control text" placeholder="Start Date"
+                                        <input type="date" class="form-control rounded-0" placeholder="Start Date"
                                             aria-label="sdate">
                                     </div>
                                     <div class="col-sm-6 col-lg-2">
                                         <!-- <input type="text" class="form-control" placeholder="Passenger" aria-label="Passenger"> -->
-                                        <select name="select-passenger" class="form-control" id="select-passenger">
+                                        <select name="select-passenger" class="form-control rounded-0"
+                                            id="select-passenger">
                                             <option selected>Passenger</option>
                                             <option value="1-pass">Passenger-1</option>
                                             <option value="2-pass">Passenger-2</option>
@@ -201,169 +202,179 @@
                                         </label>
                                     </div>
                                 </div>
+                            </form>
+                        </div>
+
+
+                        <div class="tab-pane fade " id="nav-hotel" role="tabpanel" aria-labelledby="nav-hotel-tab"
+                            tabindex="0">
+
+                            <form action="">
+                                <div class="row g-1">
+                                    <div class="col-md-6 col-lg-2 col-12">
+                                        <input type="text" class="form-control" placeholder="Enter Origin City"
+                                            aria-label="origin">
+
+                                        <!-- <span><i class="fa-solid fa-arrow-right-arrow-left" style="color:rgb(166, 239, 239)"></i></span> -->
+                                    </div>
+                                    <div class="col-sm-6 col-lg-2">
+                                        <input type="text" class="form-control rounded-0"
+                                            placeholder="Enter Destination City" aria-label="destination">
+                                    </div>
+                                    <div class="col-sm-6 col-lg-2">
+                                        <input type="date" class="form-control rounded-0"
+                                            placeholder="Enter Origin City" aria-label="edate">
+                                    </div>
+                                    <div class="col-sm-6 col-lg-2">
+                                        <input type="date" class="form-control rounded-0"
+                                            placeholder="Enter Origin City" aria-label="sdate">
+                                    </div>
+                                    <div class="col-sm-6 col-lg-2">
+                                        <select name="select-passenger" class="form-control rounded-0"
+                                            id="select-passenger">
+                                            <option selected> Passenger</option>
+                                            <option value="1-pass">Passenger-1</option>
+                                            <option value="2-pass">Passenger-2</option>
+                                            <option value="3-pass">Passenger-3</option>
+                                            <option value="4-pass">Passenger-4</option>
+                                            <option value="5-pass">Passenger-5</option>
+                                        </select>
+                                        <!-- <input type="text" class="form-control" placeholder="Passenger" aria-label="Passenger"> -->
+                                    </div>
+                                    <div class="col-sm-6 col-lg-1">
+                                        <input type="button" class="form-control circle" value="Search"
+                                            aria-label="search">
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-wrap">
+                                    <!-- <div class="row  text-white"> -->
+                                    <div class="col-md-6 col-lg-3 text-white mt-2">
+                                        <i class="fa-solid fa-suitcase-rolling"></i>
+                                        <label for="Trip type" class="form-label">Trip Type:</label>
+                                        <select class="select-custome bg-danger3 border-0 text-white">
+                                            <option selected value=" trip">Return Trip</option>
+                                            <option>Visit Trip</option>
+                                        </select>
+                                    </div>
+
+
+
+                                    <div class="col-md-6 col-lg-3 text-white mt-2">
+                                        <span class="fs-6"> <i class="fa-solid fa-ticket"></i></span>
+                                        <label for="Ticket-Class" class="form-label">Ticket-Class:</label>
+                                        <select class="bg-danger3 border-0 text-white" aria-label="">
+                                            <option selected value="Return type" id="trip type">Economy</option>
+                                            <option value="Return type" id="trip type">Business</option>
+                                            <option value="Return type" id="trip type">First</option>
+                                            <option value="Return type" id="trip type">Second</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 form-check text-white mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Direct Flight Only
+                                        </label>
+                                    </div>
+
+                                    <div class=" col-md-6  col-lg-3  form-check text-white mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Include Nearby Airports
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="tab-pane fade " id="cars-tab-pane" role="tabpanel" aria-labelledby="cars-tab"
+                            tabindex="0">
+
+                            <form action="">
+                                <div class="row g-1">
+                                    <div class="col-md-6 col-lg-2 col-12">
+                                        <input type="text" class="form-control" placeholder="Enter Origin City"
+                                            aria-label="origin">
+                                    </div>
+                                    <!-- <span><i class="fa-solid fa-arrow-right-arrow-left" style="color:rgb(166, 239, 239)"></i></span> -->
+
+                                    <div class="col-sm-6 col-lg-2">
+                                        <input type="text" class="form-control rounded-0"
+                                            placeholder="Enter Destination City" aria-label="destination">
+                                    </div>
+                                    <div class="col-sm-6 col-lg-2">
+                                        <input type="date" class="form-control rounded-0"
+                                            placeholder="Enter Origin City" aria-label="edate">
+                                    </div>
+                                    <div class="col-sm-6 col-lg-2">
+                                        <input type="date" class="form-control rounded-0"
+                                            placeholder="Enter Origin City" aria-label="sdate">
+                                    </div>
+                                    <div class="col-sm-6 col-lg-2">
+                                        <select name="select-passenger" class="form-control rounded-0"
+                                            id="select-passenger">
+                                            <option selected> Passenger</option>
+                                            <option value="1-pass">Passenger-1</option>
+                                            <option value="2-pass">Passenger-2</option>
+                                            <option value="3-pass">Passenger-3</option>
+                                            <option value="4-pass">Passenger-4</option>
+                                            <option value="5-pass">Passenger-5</option>
+                                        </select>
+                                        <!-- <input type="text" class="form-control" placeholder="Passenger" aria-label="Passenger"> -->
+                                    </div>
+                                    <div class="col-sm-6 col-lg-1">
+                                        <input type="button" class="form-control circle" value="Search"
+                                            aria-label="search">
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-wrap">
+                                    <!-- <div class="row  text-white"> -->
+                                    <div class="col-md-6 col-lg-3 text-white mt-2">
+                                        <i class="fa-solid fa-suitcase-rolling"></i>
+                                        <label for="Trip type" class="form-label">Trip Type:</label>
+                                        <select class="select-custome bg-danger3 border-0 text-white">
+                                            <option selected value=" trip">Return Trip</option>
+                                            <option>Visit Trip</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-3 text-white mt-2">
+                                        <span class="fs-6"> <i class="fa-solid fa-ticket"></i></span>
+                                        <label for="Ticket-Class" class="form-label">Ticket-Class:</label>
+                                        <select class="bg-danger3 border-0 text-white" aria-label="">
+                                            <option selected value="Return type" id="trip type">Economy</option>
+                                            <option value="Return type" id="trip type">Business</option>
+                                            <option value="Return type" id="trip type">First</option>
+                                            <option value="Return type" id="trip type">Second</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 form-check text-white mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Direct Flight Only
+                                        </label>
+                                    </div>
+
+                                    <div class=" col-md-6  col-lg-3  form-check text-white mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Include Nearby Airports
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-
-                    </form>
                 </div>
-
-                <div class="tab-pane fade " id="nav-cars" role="tabpanel" aria-labelledby="nav-cars-tab" tabindex="0">
-
-                    <form action="">
-                        <div class="row g-1">
-                            <div class="col-sm-6 col-lg-2" id="arrow">
-                                <input type="text" class="form-control" placeholder="Enter Origin City"
-                                    aria-label="origin">
-
-                                <!-- <span><i class="fa-solid fa-arrow-right-arrow-left" style="color:rgb(166, 239, 239)"></i></span> -->
-                            </div>
-                            <div class="col-sm-6 col-lg-2">
-                                <input type="text" class="form-control" placeholder="Enter Destination City"
-                                    aria-label="destination">
-                            </div>
-                            <div class="col-sm-6 col-lg-2">
-                                <input type="date" class="form-control" placeholder="Enter Origin City"
-                                    aria-label="edate">
-                            </div>
-                            <div class="col-sm-6 col-lg-2">
-                                <input type="date" class="form-control" placeholder="Enter Origin City"
-                                    aria-label="sdate">
-                            </div>
-                            <div class="col-sm-6 col-lg-2">
-                                <select name="select-passenger" class="form-control" id="select-passenger">
-                                    <option selected> Passenger</option>
-                                    <option value="1-pass">Passenger-1</option>
-                                    <option value="2-pass">Passenger-2</option>
-                                    <option value="3-pass">Passenger-3</option>
-                                    <option value="4-pass">Passenger-4</option>
-                                    <option value="5-pass">Passenger-5</option>
-                                </select>
-                                <!-- <input type="text" class="form-control" placeholder="Passenger" aria-label="Passenger"> -->
-                            </div>
-                            <div class="col-sm-6 col-lg-1">
-                                <input type="button" class="form-control circle" value="Search" aria-label="search">
-                            </div>
-                        </div>
-
-                        <div class="d-flex flex-wrap">
-                            <!-- <div class="row  text-white"> -->
-                            <div class="col-md-6 col-lg-3 text-white mt-2">
-                                <i class="fa-solid fa-suitcase-rolling"></i>
-                                <label for="Trip type" class="form-label">Trip Type:</label>
-                                <select class="select-custome bg-danger3 border-0 text-white">
-                                    <option selected value=" trip">Return Trip</option>
-                                    <option>Visit Trip</option>
-                                </select>
-                            </div>
-
-
-
-                            <div class="col-md-6 col-lg-3 ">
-                                <span class="fs-6"> <i class="fa-solid fa-ticket"></i></span>
-                                <label for="Ticket-Class" class="form-label">Ticket-Class:</label>
-                                <select class="bg-danger3 border-0 text-white" aria-label="">
-                                    <option selected value="Return type" id="trip type">Economy</option>
-                                    <option value="Return type" id="trip type">Business</option>
-                                    <option value="Return type" id="trip type">First</option>
-                                    <option value="Return type" id="trip type">Second</option>
-
-                                </select>
-                            </div>
-
-                            <div class="col-md-6 col-lg-2 form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    Direct Flight Only
-                                </label>
-                            </div>
-
-                            <div class=" col-md-6  col-lg-3  form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                <label class="form-check-label" for="flexCheckChecked">
-                                    Include Nearby Airports
-                                </label>
-                            </div>
-                        </div>
-                </div>
-                </form>
             </div>
-
-            <div class="tab-pane fade " id="nav-hotel" role="tabpanel" aria-labelledby="nav-hotel-tab" tabindex="0">
-
-                <form action="">
-                    <div class="row g-1">
-                        <div class="col-sm-6 col-lg-2" id="arrow">
-                            <input type="text" class="form-control" placeholder="Enter Origin City" aria-label="origin">
-                        </div>
-                        <!-- <span><i class="fa-solid fa-arrow-right-arrow-left" style="color:rgb(166, 239, 239)"></i></span> -->
-
-                        <div class="col-sm-6 col-lg-2">
-                            <input type="text" class="form-control" placeholder="Enter Destination City"
-                                aria-label="destination">
-                        </div>
-                        <div class="col-sm-6 col-lg-2">
-                            <input type="date" class="form-control" placeholder="Enter Origin City" aria-label="edate">
-                        </div>
-                        <div class="col-sm-6 col-lg-2">
-                            <input type="date" class="form-control" placeholder="Enter Origin City" aria-label="sdate">
-                        </div>
-                        <div class="col-sm-6 col-lg-2">
-                            <select name="select-passenger" class="form-control" id="select-passenger">
-                                <option selected> Passenger</option>
-                                <option value="1-pass">Passenger-1</option>
-                                <option value="2-pass">Passenger-2</option>
-                                <option value="3-pass">Passenger-3</option>
-                                <option value="4-pass">Passenger-4</option>
-                                <option value="5-pass">Passenger-5</option>
-                            </select>
-                            <!-- <input type="text" class="form-control" placeholder="Passenger" aria-label="Passenger"> -->
-                        </div>
-                        <div class="col-sm-6 col-lg-1">
-                            <input type="button" class="form-control circle" value="Search" aria-label="search">
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-wrap">
-                        <!-- <div class="row  text-white"> -->
-                        <div class="col-md-6 col-lg-3 text-white mt-2">
-                            <i class="fa-solid fa-suitcase-rolling"></i>
-                            <label for="Trip type" class="form-label">Trip Type:</label>
-                            <select class="select-custome bg-danger3 border-0 text-white">
-                                <option selected value=" trip">Return Trip</option>
-                                <option>Visit Trip</option>
-                            </select>
-                        </div>
-
-                        <div class="col-md-6 col-lg-3 ">
-                            <span class="fs-6"> <i class="fa-solid fa-ticket"></i></span>
-                            <label for="Ticket-Class" class="form-label">Ticket-Class:</label>
-                            <select class="bg-danger3 border-0 text-white" aria-label="">
-                                <option selected value="Return type" id="trip type">Economy</option>
-                                <option value="Return type" id="trip type">Business</option>
-                                <option value="Return type" id="trip type">First</option>
-                                <option value="Return type" id="trip type">Second</option>
-                            </select>
-                        </div>
-
-                        <div class="col-md-6 col-lg-2 form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Direct Flight Only
-                            </label>
-                        </div>
-
-                        <div class=" col-md-6  col-lg-3  form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                            <label class="form-check-label" for="flexCheckChecked">
-                                Include Nearby Airports
-                            </label>
-                        </div>
-                    </div>
-            </div>
-            </form>
         </div>
-
-    </div>
+    </section>
     <!-- Banner Section End -->
 
     <!-- Fun Section Start -->
@@ -624,42 +635,38 @@
     <section class="blog ">
         <div class="container">
             <div class="row py-4">
-                <h3 class="fw-bold text-center mt-4">LATEST BLOG</h3>
-                <P class=" col-md-10 col-sm-12 col-12 text-center m-auto offset-md-2">Lorem ipsum dolor sit, amet
-                    consectetur
-                    adipisicing
-                    elit.
-                    Doloremque nam exercitationem cum voluptates dolor earum odit sint sunt hic ipsa, ut nesciunt
-                    dolorem
-                    repudiandae unde enim aliquam corrupti omnis. Quasi.</P>
+                <h3 class="fw-bold text-center ">LATEST BLOG</h3>
+                <P class="col-md-10 col-sm-12 col-12 col-lg-8  text-center m-auto offset-md-2">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. debitis hic sed quidem culpa voluptate cumque, sunt unde suscipit soluta laudantium quas beatae reiciendis?
+                </P>
             </div>
             <div class="row ">
-                <div class=" col-md-6 col-lg-6 col-10 mb-3">
+                <div class="col-md-6  col-lg-6 mb-3">
                     <div class="row">
                         <div class="col-sm-4 col-md-4 mb-2">
                             <img src="./assests/img/Blog1.jpg" style="width: 180px; height: 150px;" alt="10 things"
-                                class="img-fluid mx-auto mt-2">
+                                class="img-fluid mx-auto mt-2 ">
                         </div>
-                        <div class="col-sm-8 col-md-8">
+                        <div class="col-sm-8 col-md-8 ">
                             <p class="mb-0">feb 01,2016</p>
                             <h6>10 THINGS TODO BEFORE TRAVEL</h6>
-                            <hr class="mb-3 mt-0" size="4px" style="width: 60px; color:#ff0000; border-width: 3px;">
+                            <hr class="mb-3 mt-0" size="4px" style="width: 50px; color:#ff0000; border-width: 3px;">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid aperiam consequatur
                                 est maiores
                                 cupiditate eius commodi!</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6  col-10 mb-3">
+                <div class="col-md-6 col-lg-6 mb-3">
                     <div class="row ">
                         <div class="col-sm-4 col-md-4 mb-2">
                             <img src="./assests/img/lazy.jpg" style="width: 180px; height: 150px;" alt="lazy life"
-                                class="img-fluid mx-auto mt-2">
+                                class="img-fluid mx-auto mt-2 ">
                         </div>
                         <div class="col-sm-8 col-md-8 ">
                             <p class="mb-0">Jan 23, 2016</p>
                             <h6>SAY NO TO LAZY LIFE</h6>
-                            <hr class="mb-3 mt-0" size="4px" style="width:60px; color:#08d108; border-width: 3px;">
+                            <hr class="mb-3 mt-0" size="4px" style="width:50px; color:#08d108; border-width: 3px;">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid aperiam consequatur
                                 est maiores
                                 cupiditate eius commodi!</p>
@@ -875,13 +882,17 @@
                 </div>
             </div>
 
-            <div class="footbotm row mt-3">
-                <div class="col-lg-10 col-md-12">
-                    <div class="row">
-                        <div class="foot col-lg-1 col-md-12 col-sm-12 text-sm-center text-md-center">
-                            <img src="./assests/img/foot1.png" class=" img-fluid w-15 " alt="">
+            <div class=" row mt-3 py-1">
+                <div class="footbotm ">
+                    <div class="d-lg-flex  d-md-flex mb-0 gap-lg-3 gap-sm-1 ahover">
+                        <div class="foot  mx-md-4 mx-sm-3 text-center  pb-3 pb-lg-0">
+                           <!-- <div class=" col-12 pb-3 pb-lg-0 col-sm-center"> -->
+                            <a href="javascript:void()">
+                            <img src="./assests/img/foot1.png" class=" img-fluid w-15 " alt=""></a>
                         </div>
-                        <div class="col-lg-11">
+                        <!-- </div> -->
+
+                        <div class=" ">
                             <a href="javascript:void()" class="text-decoration-none text-white me-3">About Us</a>
                             <a href="javascript:void()" class="text-decoration-none text-white me-3">Jobs</a>
                             <a href="javascript:void()" class="text-decoration-none text-white me-3">Press</a>
@@ -892,16 +903,14 @@
                             <a href="javascript:void()" class="text-decoration-none text-white me-3">Airlines</a>
                             <a href="javascript:void()" class="text-decoration-none text-white me-3">Apps</a>
                             <a href="javascript:void()" class="text-decoration-none text-white me-3">Helps</a>
-                            <p>momondo.co.uk is a free , independent global travel search site comparing billions of
-                                cheap
-                                flights , hotels and car hire deals</p>
+                        
+                            <p class=" col-lg-10 mx-0 mb-3  mt-sm-3 col-12 mt-3 ">momondo.co.uk is a free , independent global travel search site comparing billions of
+                                cheap flights , hotels and car hire deals</p>
 
                         </div>
-
-
                     </div>
                 </div>
-                <div class=" social col-lg-2 col-md-12 text-sm-center text-md-center mt-2">
+                <div class=" social col-lg-12 col-md-12 text-center text-lg-center text-md-center mt-2 ">
                     <a href="javascript:void()" class="text-decoration-none text-white me-3"><i
                             class="fa-brands fa-twitter"></i></a>
                     <a href="javascript:void()" class="text-decoration-none text-white me-3"><i
