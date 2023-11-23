@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: fruit;
+    src: url(../fonts/fruits.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-blue{
+    background-color: #212a43;
+}
+.bg-danger2{
+    background: #D5385F;
+}
+.bg-danger3{
+    background: #5c327A;
+}
+.bg-danger4{
+    background: #43235a;
+}
+.bg-danger5{
+    background: #59668a;
+}
+.bg-warning2{
+    background: #FA9005;
+}
+.text-danger2{
+    color:#D5385F !important
+}
+.text-success2{
+    color:#376118
+}
+.text-dark2{
+    color: #161616;
+}
+
+.bg-purple1 {
+    background: #990dc0e4;
+}
+
+.top-10{
+    top: 10%;
+}
+.top-15{
+    top: 15%;
+}
+.top-20{
+    top: 20%;
+}
+
+.w-50{
+    width: auto;
+}
+/* Banner Section Start */
+.banner{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(../img/Banner.jpg);
+    background-size: cover;
+}
+.nav-tabs .nav-link.active{
+    background: #D5385F;
+}
+.form-control:focus{
+    box-shadow: 0px 0px 0px;
+} 
+/* .ml {
+    margin-top: -30%;
+} */
+
+
+/* Banner Section End */
+
+/* Fun Section Start */
+.fun{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(../img/fun.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.p{
+    font-size: 14px;
+    margin: 0px;
+
+}
+/* Fun Section End */
+
+/* Newsletter Section Start */
+.newsletter{
+    width: 100%;
+    height: 200%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(../img/news3.jpg);
+    background-size: cover;
+}
+
+
+
+
+/* Newsletter Section End */
+
+/* Popular Section Start */
+.popular{
+    background: #1e0331;
+   
+}
+/* Popular Section end */
+
+/* Estimate Section Start */
+
+#estimate div {
+    display: inline;
+}
+
+.form-select {
+    width: 16%;
+}
+/* Estimate Section End */
+
+/* Blog Section Start */
+
+/* Blog Section End */
+
+/* Footer Section Start */
+.footer {
+    width: 100%;
+    height: auto;
+    background: #000;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../img/flighttakeoff.jpg); */
+    /* background-size: 100% 100%; */
+
+}
+.footer h4{
+    font-style: italic;
+    font-weight: 300
+}
+.w-10 {
+    max-width: 20px;
+}
+
+.w-15 {
+    max-width: 50px;
+}
+
+
+
+/* Media Query Section Start  */
+@media screen and (min-width:992px) {
+    .circle{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: -40%;
+        right: 1%;
+        background: #D5385F;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .top-15{
+        top:10%;
+    }
+
+    .estimate img{
+        visibility:hidden;
+
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .btn-width-80{
+        width: 80px !important;
+        font-size: 10px !important;
+        margin: 0px auto;
+    }
+
+    
+}
+    
+
+/* Media Query Section End  */
